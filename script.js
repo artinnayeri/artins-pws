@@ -41,7 +41,7 @@ window.addEventListener('scroll', () => {
 });
 
 const aiPromptEl = document.getElementById('ai-prompt');
-const aiText = "Hier is de tekst:---Schrijfblokkades zijn een veelvoorkomend probleem onder schrijvers — een uitdaging die vaak voortkomt uit perfectionisme — en AI-tools zoals ChatGPT kunnen hierbij een waardevolle oplossing bieden. Hoewel sommige schrijvers zorgen hebben over authenticiteit, biedt AI vooral ondersteuning bij het creatieve proces — zonder de unieke stem van de schrijver te vervangen. Experts in de uitgeefwereld en psychologen erkennen steeds vaker de potentie van AI als schrijfhulpmiddel — een ontwikkeling die de drempel om te beginnen aanzienlijk kan verlagen.---";
+const aiText = "Hier is de tekst:---Schrijfblokkades zijn een veelvoorkomend probleem onder schrijvers — een uitdaging die vaak voortkomt uit perfectionisme — en AI-tools zoals ChatGPT kunnen hierbij een waardevolle oplossing bieden.";
 const humanPrompt = "Voor ik mijn experimenten uitleg, zal ik gelijk zeggen dat ik weiger gebruik te maken van AI zoals ChatGPT voor het schrijven. Dit is een advies dat ik regelmatig tegenkom en zelfs heb gekreven van een psycholoog. Volgens de CEO van een bekende uitgever zal AI helpen tegen schrijfblokkades, maar ik vind dat dit niet klopt. Als de meeste schrijvers met writer’s block last hebben van perfectionisme, zouden ze nooit het werk van een ander als hun eigen beweren, in het bijzonder niet van AI die bekendstaan om hun herkenbare schrijfstijl en plagiaat. Zo voelt het voor mij in ieder geval.";
 
 function startAIPromptAnimation() {
