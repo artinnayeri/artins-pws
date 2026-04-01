@@ -9,6 +9,12 @@ body {
   overflow-x: hidden;
 }
 
+td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+}
+
 #progress-container {
   position: fixed;
   top: 0;
