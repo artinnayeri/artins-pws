@@ -60,14 +60,14 @@ function startAIPromptAnimation() {
         if (i > 0) {
           aiPromptEl.textContent = text.substring(0, i - 1);
           i--;
-          setTimeout(deleteChar, 20);
+          setTimeout(deleteChar, 5);
         } else {
           let j = 0;
           function typeHuman() {
             if (j < humanPrompt.length) {
               aiPromptEl.textContent += humanPrompt.charAt(j);
               j++;
-              setTimeout(typeHuman, 40);
+              setTimeout(typeHuman, 5);
             } else {
               aiPromptEl.classList.remove('typing');
             }
