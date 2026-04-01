@@ -41,8 +41,8 @@ window.addEventListener('scroll', () => {
 });
 
 const aiPromptEl = document.getElementById('ai-prompt');
-const aiText = "Placeholder text reminiscient of AI generated text."
-const humanPrompt = "Placeholder text for something written by a human being.";
+const aiText = "Placeholder nep-AI."
+const humanPrompt = "Placeholder Mens.";
 
 function startAIPromptAnimation() {
 
